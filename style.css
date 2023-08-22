@@ -1,0 +1,93 @@
+
+*{
+	box-sizing: border-box;
+}
+#search {
+	    margin-left: 1040px;
+        margin-top: -9px;
+
+}
+#bar {
+	    margin-left: 268px;
+        margin-top: 39px;
+        margin-bottom: -51px;
+}
+.container{
+	width: 793px;
+    min-height: 648px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 267px;
+    margin-top: 10px;
+}
+.container div {
+	padding: 10px;
+	margin:5px;
+}
+.head{
+    grid-column: 1/5;
+
+    background-repeat: no-repeat;
+    background-image: url(healthy.jpg);
+       background-size: 782px 215px
+}
+.sidleft1{
+    grid-column: 1/2;
+    background-repeat: no-repeat;
+    background-image: url(sport-active.jpg);
+    background-size: cover;
+}
+  
+ .nav{
+    grid-column: 2/5;
+    background-repeat: no-repeat;
+    background-image: url(healthy.jpg);
+    background-size: cover;
+ 	}  
+ 	.sidleft2{
+    grid-column: 1/3;
+    background-repeat: no-repeat;
+    background-image: url(4_photo.jpg);
+    background-size: cover;
+ 	}  
+.content{
+    grid-column: 3/5;
+    grid-row: 3/5;
+    background-repeat: no-repeat;
+    background-image: url(sport-18.jpg);
+    background-size: cover;
+ 	}  
+ 	.sidleft3{
+    grid-column: 1/2;
+    background-repeat: no-repeat;
+    background-image: url(sport-active.jpg);
+    background-size: cover;
+ 	} 
+ 	.sidleft4{
+    grid-column: 2/3;
+    background-repeat: no-repeat;
+    background-image: url(sport-active.jpg);
+    background-size: cover;
+ 	} 
+ 	.footer1{
+    grid-column: 1/3;
+    background-repeat: no-repeat;
+    background-image: url(womens.jpg);
+    background-size: cover;
+ 	} 
+ 	.footer2{
+    grid-column: 3/5;
+    background-repeat: no-repeat;
+    background-image: url(4_photo.jpg);
+    background-size: cover;
+ 	} 
+ 	body{
+ 		background-color: black;
+ 	}
+ 	p{
+ 		text-align: center;
+ 		margin-left: 233px;
+        margin-top: -15px;
+ 	}
+ 	
